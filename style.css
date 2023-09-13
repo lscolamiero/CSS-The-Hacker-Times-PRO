@@ -4,7 +4,6 @@
 .newspaper-container {
     width: 700px;
     margin: 0 auto;
-    /* background-color: #eee; */
     background-color: white;
     border-radius: 25px;
     box-shadow: 2px 2px 4px grey;
@@ -29,7 +28,7 @@ p {
 }
 
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 h1 {
@@ -64,10 +63,6 @@ nav {
     border-radius: 25px;
     font-weight: bolder;
     border: 2px solid black;
-}
-
-ul {
-
 }
 
 a {
@@ -129,29 +124,8 @@ li {
   }
 
   section {
-    width: 300px;
-  }
-
-  section:nth-of-type(1) {
-    margin-left: 20px;
-  }
-
-  section:nth-of-type(2) {
-    margin-left: 60px;
-  }
-
-  section:nth-of-type(3) {
     width: 200px;
     margin-left: 20px;
-  }
-  section:nth-of-type(4) {
-    width: 200px;
-    margin-left: 30px;
-  }
-
-  section:nth-of-type(5) {
-    width: 200px;
-    margin-left: 25px;
   }
 
   footer {
