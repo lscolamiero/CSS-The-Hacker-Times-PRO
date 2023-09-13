@@ -102,13 +102,13 @@ li {
     text-align: justify;
   }
 
-  .paragraph-edit {
+  /* .paragraph-edit {
     width: 285px;
     font-size: 10px;
     margin-left: 20px;
     margin-right: 5px;
     text-align: justify;
-  }
+  } */
 
   .paragraph-bonus {
     width: 190px;
@@ -123,7 +123,9 @@ li {
   }
 
   .more-articles {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
   }
 
   section {
@@ -159,9 +161,4 @@ li {
     font-weight: bolder;
     text-align: center;
   }
-
- /*  .more-articles {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-  } */
 
